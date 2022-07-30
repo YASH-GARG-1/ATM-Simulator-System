@@ -20,13 +20,13 @@ public class SignupTwo extends JFrame implements ActionListener{
         setTitle("NEW ACCOUNT APPLICATION FORM - PAGE 2");
         
         // Comment thi part and uncomment the part of the next button in the end.
-        next = new JButton("Next");
-        next.setBackground(Color.BLACK);
-        next.setForeground(Color.WHITE);
-        next.setFont(new Font("Raleway", Font.BOLD, 14));
-        next.setBounds(150, 80 , 80, 30);
-        next.addActionListener(this);
-        add(next);
+//        next = new JButton("Next");
+//        next.setBackground(Color.BLACK);
+//        next.setForeground(Color.WHITE);
+//        next.setFont(new Font("Raleway", Font.BOLD, 14));
+//        next.setBounds(150, 80 , 80, 30);
+//        next.addActionListener(this);
+//        add(next);
         
         // Label for showing the page number.
         JLabel additionalDetails = new JLabel("Page 2: Additional Details");
@@ -155,13 +155,13 @@ public class SignupTwo extends JFrame implements ActionListener{
         emaritalgroup.add(eyes);
         emaritalgroup.add(eno);
         
-//        next = new JButton("Next");
-//        next.setBackground(Color.BLACK);
-//        next.setForeground(Color.WHITE);
-//        next.setFont(new Font("Raleway", Font.BOLD, 14));
-//        next.setBounds(620, 660, 80, 30);
-//        next.addActionListener(this);
-//        add(next);
+        next = new JButton("Next");
+        next.setBackground(Color.BLACK);
+        next.setForeground(Color.WHITE);
+        next.setFont(new Font("Raleway", Font.BOLD, 14));
+        next.setBounds(620, 660, 80, 30);
+        next.addActionListener(this);
+        add(next);
         
         setSize(850,800);
         setLocation(350, 10);

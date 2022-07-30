@@ -29,13 +29,13 @@ public class SignupOne extends JFrame implements ActionListener{
         add(formno);
         
         // Comment thi part and uncomment the part of the next button in the end.
-        next = new JButton("Next");
-        next.setBackground(Color.BLACK);
-        next.setForeground(Color.WHITE);
-        next.setFont(new Font("Raleway", Font.BOLD, 14));
-        next.setBounds(150, 80 , 80, 30);
-        next.addActionListener(this);
-        add(next);
+//        next = new JButton("Next");
+//        next.setBackground(Color.BLACK);
+//        next.setForeground(Color.WHITE);
+//        next.setFont(new Font("Raleway", Font.BOLD, 14));
+//        next.setBounds(150, 80 , 80, 30);
+//        next.addActionListener(this);
+//        add(next);
         
         // Label for showing the page number.
         JLabel personalDetails = new JLabel("Page 1: Personal Details");
@@ -168,13 +168,13 @@ public class SignupOne extends JFrame implements ActionListener{
         pincodeTextField.setBounds(300, 590, 400, 30);
         add(pincodeTextField);
         
-//        next = new JButton("Next");
-//        next.setBackground(Color.BLACK);
-//        next.setForeground(Color.WHITE);
-//        next.setFont(new Font("Raleway", Font.BOLD, 14));
-//        next.setBounds(620, 660, 80, 30);
-//        next.addActionListener(this);
-//        add(next);
+        next = new JButton("Next");
+        next.setBackground(Color.BLACK);
+        next.setForeground(Color.WHITE);
+        next.setFont(new Font("Raleway", Font.BOLD, 14));
+        next.setBounds(620, 660, 80, 30);
+        next.addActionListener(this);
+        add(next);
         
         setSize(850,800);
         setLocation(350, 10);

@@ -141,8 +141,8 @@ public class SignupThree extends JFrame implements ActionListener{
         submit.setForeground(Color.WHITE);
         submit.setFont(new Font("Raleway", Font.BOLD, 14));
         submit.addActionListener(this);
-//        submit.setBounds(250, 720, 100, 30);
-        submit.setBounds(170, 40, 100, 30);
+        submit.setBounds(250, 720, 100, 30);
+//        submit.setBounds(170, 40, 100, 30);
         add(submit);
         
         cancel = new JButton("Cancel");
@@ -150,8 +150,8 @@ public class SignupThree extends JFrame implements ActionListener{
         cancel.setForeground(Color.WHITE);
         cancel.setFont(new Font("Raleway", Font.BOLD, 14));
         cancel.addActionListener(this);
-//        cancel.setBounds(420, 720, 100, 30);
-        cancel.setBounds(700, 40, 100, 30);
+        cancel.setBounds(420, 720, 100, 30);
+//        cancel.setBounds(700, 40, 100, 30);
         add(cancel);
         
         setSize(850,820);
